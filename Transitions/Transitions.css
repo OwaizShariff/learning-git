@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+  .sign-up-button {
+    background-color: #4CAF50;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;     
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .sign-up-button:hover {
+    background-color: blueviolet;
+    transform: scale(1.1);
+  }
+  
+  .sign-up-button:active {
+    transform: scale(0.95);
+    animation: bounce 0.3s ease-out;
+  }
+  
+  /* Bounce animation */
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(0.95);
+    }
+  }
+
+  .glow-button {
+    background-color: #1e90ff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #1e90ff;
+    transition: box-shadow 0.4s ease;
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 0 20px #1e90ff, 0 0 40px #1e90ff;
+  }
+  
+  .slide-border-button {
+    background: none;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease;
+  }
+  
+  .slide-border-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    transition: left 0.4s ease;
+    z-index: -1;
+  }
+  
+  .slide-border-button:hover::before {
+    left: 0;
+  }
+  
+  .slide-border-button:hover {
+    color: white;
+  }
+  
+  .rotate-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-button:hover {
+    transform: rotate(180deg);
+  }
+  
+  .pulse-button {
+    background-color: #6a5acd; /* Slate blue */
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  

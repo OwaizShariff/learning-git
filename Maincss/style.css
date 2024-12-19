@@ -1,0 +1,111 @@
+/* external css */
+
+/* control + / */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   background-color: white; 
+   /* font-size: 5px; */
+   margin: 10px;
+   padding: 20px;
+}
+
+
+h1 {
+    color: green;
+}
+h2 {
+    background-color: blueviolet;
+}
+p {
+    color: brown;
+    background-color: aqua;
+}
+span {
+    font-size: 20px;
+    color: darkmagenta;
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+a {
+    color: chartreuse;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: serif;
+    background-color: aqua;
+}
+
+h5 {
+    color:goldenrod;
+    background-color: burlywood;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hello-text {
+    color:red;
+    background-color:aqua;
+}
+
+.hello-frontend-text-for-name {
+    font-size: 42px;
+    color: hotpink;
+}
+
+#heading-class-text {
+    color: #093ee2;
+}
+
+.blog-text {
+    font-size: 4rem;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+.heading-class-text {
+    color: blue;
+    font-size: 9rem;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    text-align: center;
+    /*
+        20px * 1rem or 1em = 20px
+        40px * 1rem or 1em = 100px
+    */
+}
+
+/* inline css > id selectors > class selector > element select */
+
+
+/* 
+    1. blog tags - 20px;
+    2. heading - 45px
+
+
+*/
+
+
+.first-container {
+    /* trbl   - top right bottom left  */
+    /*    
+    tb - top bottom
+    lr - left right
+    
+    */
+
+ /* margin: topbottom, leftright; */
+    margin: 150px;
+    width: 100px;
+    height: 100px;
+    background-color: #093ee2;
+    /* padding: 20px 0px 0px 0px; */
+    border: 5px solid red;
+}
+
+
+

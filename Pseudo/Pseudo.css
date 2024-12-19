@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+/* 
+p:first-child {
+    border: 1px solid red;
+} */
+
+.paragraph {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.paragraph:last-child {
+    font-size: 20px;
+    color: crimson;
+}
+
+.paragraph-two {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.paragraph:hover {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+.paragraph-two:hover {
+    color: cadetblue;
+    font-size: 14px;
+    background-color: bisque;
+}
+
+.poppins-ref:hover {
+    color:beige;
+    background-color:chocolate;
+}
+
+.poppins-ref:active {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+.poppins-ref:focus {
+    border: 1px solid red;
+}
+
+.name-input:focus {
+    border: none;
+    background-color: aqua;
+    color: blue;
+}
+
+input:enabled {
+    outline: 1px solid blue;
+}
+
+/* Pseudo elements */
+.first-para::first-line {
+    color: aqua;
+    font-size: 24px;
+}
+
+.first-para::before {
+    content: "Anything";
+    color: bisque;
+}
+
+
+.first-para::after {
+    content: "endline";
+    color: blueviolet;
+    font-weight: 900;
+}
+
+.first-para::first-letter {
+    color:brown;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.second-para::first-letter {
+    font-size: 30px;
+    font-weight: 900;
+    color: blue;
+}
+
+.text-input::placeholder {
+    color:coral;
+    font-size: 13px;
+    font-weight: 900
+}
+
+.text-input {
+    color: aqua;
+}
+
+.textarea::selection {
+    color: aqua;
+}
+
+.first-para::selection {
+    color:red;
+}

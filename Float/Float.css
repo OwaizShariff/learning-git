@@ -1,0 +1,23 @@
+.test-para {
+    float: right;
+    width: 100px;
+}
+
+.text-img {
+    float: left;
+}
+.text-img-two {
+    /* clear: left; */
+}
+
+.text-one {
+    display: inline;
+}
+.text-two {
+    display: inline;
+}
+
+.text-three {
+    display: inline-block;
+    background-color: aquamarine;
+}

@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.testing {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.name {
+    background-color: aqua;
+}
+
+.occupation {
+    background-color: aqua;
+}
+
+.parent {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.child2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.child3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.child4 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.child5 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 9999;
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 30%;
+    left: 100%;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+
+/* 
+html css js react
+
+    line by line
+
+
+
+*/
